@@ -108,8 +108,8 @@ const Home: NextPage = () => {
                     eos cupiditate!
                   </span>
                 </div>
-                <TextBookMark texto={"Aqui vai um texto color sit amet"} />
-                <div className="py-3 flex flex-row justify-around gap-10">
+                <TextBookMark texto={"Talvez você goste"} />
+                <div className="py-3 flex flex-row justify-around gap-10 mb-10 ">
                   {Invite.map(({ description, imagem, title, url }, index) => {
                     return (
                       <CardCuriosidades
@@ -149,6 +149,11 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <div className="bg-black h-10 w-full" />
+      <div className="bg-zinc-800 h-10 w-full" />
+      <footer className="bg-zinc-500 flex items-center justify-center p-2 text-white text-sm">
+        © Todos os direitos reservados
+      </footer>
     </>
   );
 };
