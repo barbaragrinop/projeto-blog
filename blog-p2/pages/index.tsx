@@ -113,6 +113,7 @@ const Home: NextPage = () => {
                   {Invite.map(({ description, imagem, title, url }, index) => {
                     return (
                       <CardCuriosidades
+                        key={index}
                         description={description}
                         image={imagem}
                         title={title}
@@ -136,6 +137,7 @@ const Home: NextPage = () => {
                     <div className="flex flex-col justify-center items-center gap-3 mt-2">
                       {PostsUserOn.map(({ title, description, url }, index) => (
                         <CardPostsProfile
+                          key={index}
                           description={description}
                           url={url}
                           title={title}
