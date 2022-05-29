@@ -4,7 +4,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        banner: "url('/images/banner.svg')",
+        circles: "url('/images/bg-circles.svg')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
+    },
   },
   plugins: [],
 };
