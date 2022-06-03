@@ -1,5 +1,6 @@
 import { PropsCardCuriosidades } from "components/Card";
 import Sobral from "/public/images/sobral.svg";
+import Clarissa from "/public/images/woman.png";
 
 export type PropsProfileCard = {
   nome: string;
@@ -25,6 +26,20 @@ export const ProfileInfo: PropsProfileCard = {
     socialmedia: {
       git: "https://www.github.com/",
       in: "https://www.linkedin.com/in/gabriel-sobral-programmer/",
+    },
+  },
+};
+
+export const ProfileInfo2: PropsProfileCard = {
+  nome: "Clarissa Liz",
+  image: Clarissa,
+  description: {
+    job: "Software Front-End Developer",
+    local: "Minas Gerais - Brazil",
+    registered: "02 de jan. de 2021",
+    socialmedia: {
+      git: "https://www.github.com/",
+      in: "https://www.linkedin.com/",
     },
   },
 };
