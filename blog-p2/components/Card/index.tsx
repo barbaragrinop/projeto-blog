@@ -19,15 +19,13 @@ export function CardCuriosidades({
   title,
 }: PropsCardCuriosidades) {
   return (
-    <div className="card rounded-lg w-[219px] h-[243px] hover:line-clamp-none  hover:h-auto hover:scale-[1.1] hover:pb-2 duration-300 transition ease-in-out relative overflow-hidden  shadow-lg shadow-black/20 ">
+    <div className="card rounded-lg w-[219px] first:hover:h-[255px] h-[200px] hover:h-auto hover:scale-[1.1] duration-300 transition ease-in-out relative overflow-hidden  shadow-lg shadow-black/20 ">
       <Image src={image} alt={"Imagem de ilustração"} />
       <div className="flex flex-col px-3 hover:line-clamp-none  ">
-        <span className="break-words py-1 text-[14px] font-medium">
+        <span className="break-words text-clip py-1 text-[14px] font-medium">
           {title}
         </span>
-        <span className=" break-words text-[12px] line-clamp-5 hover:line-clamp-none ">
-          {description}
-        </span>
+        <span className=" break-words text-[12px] ">{description}</span>
       </div>
       <span></span>
     </div>
