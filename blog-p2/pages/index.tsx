@@ -34,6 +34,8 @@ const Home: NextPage = () => {
             <span>|</span>
             <Link href={""}>Internet das Coisas</Link>
             <span>|</span>
+            <Link href={"girias-internet"}>Gírias da Internet</Link>
+            <span>|</span>
             <Link href={"poadcast"}>Poadcast - História da Internet</Link>
           </div>
           <div className="col-span-12 mx-12 rounded-lg ">

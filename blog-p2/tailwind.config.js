@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('/images/banner.svg')",
         banner2: "url('/images/banner-2.svg')",
+        "banner-3": "url('/images/banner-3.jpg')",
         circles: "url('/images/bg-circles.svg')",
         "footer-texture": "url('/img/footer-texture.png')",
       },
