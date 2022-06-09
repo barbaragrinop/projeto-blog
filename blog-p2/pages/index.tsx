@@ -26,12 +26,6 @@ const Home: NextPage = () => {
       <div className="bg-circles bg-cover bg-repeat-y min-h-screen text-[#373737]">
         <div className="grid grid-cols-12 gap-2">
           <div className="col-span-12 flex py-1 gap-3 mx-12 text-sm">
-            <Link href={""}>
-              <Image src={IconHome} className="cursor-pointer" />
-            </Link>
-            <span>|</span>
-            <Link href={""}>Artigos</Link>
-            <span>|</span>
             <Link href={""}>Internet das Coisas</Link>
             <span>|</span>
             <Link href={"girias-internet"}>Gírias da Internet</Link>
