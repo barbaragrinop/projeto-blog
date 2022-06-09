@@ -2,11 +2,12 @@ import { CardPostsProfile, CardProfileCLarissa } from "components/Card";
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Invite } from "utils/invite";
 import { Header } from "../components/Header";
 import IconHome from "/public/icons/home.svg";
+// import PoadCast from "/public/poadcast/poadcast-luiz4.mp3";
 import { ProfileInfoClarissa } from "utils/profile-info";
 import { PostsUserOn } from "utils/posts-user-on";
+import { TextBookMark } from "components/DivMarkedText";
 
 const Home: NextPage = () => {
   return (
@@ -39,7 +40,16 @@ const Home: NextPage = () => {
                 <span>5min de poadcast </span>
                 <span>21/05/2022 - às 12:09</span>
               </div>
-              <div className="col-span-8"></div>
+              <div className="col-span-8">
+                <TextBookMark texto={"Poadcast - História da Internet"} />
+                <audio controls autoPlay>
+                  <source
+                    src="public/poadcast/poadcast-luiz4.mp3"
+                    type="audio/mp3"
+                  />
+                  seu navegador não suporta HTML5
+                </audio>
+              </div>
               <div className="col-span-4 ">
                 <div className="mb-4">
                   <CardProfileCLarissa />
